@@ -154,149 +154,149 @@ pub fn prompt_selection(
         Some(ref color_choice) => match color_choice {
             Choice::Normal(color) => match color {
                 ChoiceColor::Black => {
-                    print!("{}: [{}]: ", prompt.to_string(), list.to_string().black())
+                    print!("{}: [{}]: ", prompt, list.to_string().black())
                 }
                 ChoiceColor::Red => {
-                    print!("{}: [{}]: ", prompt.to_string(), list.to_string().red())
+                    print!("{}: [{}]: ", prompt, list.to_string().red())
                 }
                 ChoiceColor::Green => {
-                    print!("{}: [{}]: ", prompt.to_string(), list.to_string().green())
+                    print!("{}: [{}]: ", prompt, list.to_string().green())
                 }
                 ChoiceColor::Yellow => {
-                    print!("{}: [{}]: ", prompt.to_string(), list.to_string().yellow())
+                    print!("{}: [{}]: ", prompt, list.to_string().yellow())
                 }
                 ChoiceColor::Blue => {
-                    print!("{}: [{}]: ", prompt.to_string(), list.to_string().blue())
+                    print!("{}: [{}]: ", prompt, list.to_string().blue())
                 }
                 ChoiceColor::Magenta => {
-                    print!("{}: [{}]: ", prompt.to_string(), list.to_string().magenta())
+                    print!("{}: [{}]: ", prompt, list.to_string().magenta())
                 }
                 ChoiceColor::Cyan => {
-                    print!("{}: [{}]: ", prompt.to_string(), list.to_string().cyan())
+                    print!("{}: [{}]: ", prompt, list.to_string().cyan())
                 }
                 ChoiceColor::White => {
-                    print!("{}: [{}]: ", prompt.to_string(), list.to_string().white())
+                    print!("{}: [{}]: ", prompt, list.to_string().white())
                 }
             },
             Choice::On(color) => match color {
                 ChoiceColor::Black => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().on_black()
                 ),
                 ChoiceColor::Red => {
-                    print!("{}: [{}]: ", prompt.to_string(), list.to_string().on_red())
+                    print!("{}: [{}]: ", prompt, list.to_string().on_red())
                 }
                 ChoiceColor::Green => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().on_green()
                 ),
                 ChoiceColor::Yellow => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().on_yellow()
                 ),
                 ChoiceColor::Blue => {
-                    print!("{}: [{}]: ", prompt.to_string(), list.to_string().on_blue())
+                    print!("{}: [{}]: ", prompt, list.to_string().on_blue())
                 }
                 ChoiceColor::Magenta => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().on_magenta()
                 ),
                 ChoiceColor::Cyan => {
-                    print!("{}: [{}]: ", prompt.to_string(), list.to_string().on_cyan())
+                    print!("{}: [{}]: ", prompt, list.to_string().on_cyan())
                 }
                 ChoiceColor::White => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().on_white()
                 ),
             },
             Choice::Bright(color) => match color {
                 ChoiceColor::Black => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().bright_black()
                 ),
                 ChoiceColor::Red => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().bright_red()
                 ),
                 ChoiceColor::Green => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().bright_green()
                 ),
                 ChoiceColor::Yellow => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().bright_yellow()
                 ),
                 ChoiceColor::Blue => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().bright_blue()
                 ),
                 ChoiceColor::Magenta => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().bright_magenta()
                 ),
                 ChoiceColor::Cyan => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().bright_cyan()
                 ),
                 ChoiceColor::White => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().bright_white()
                 ),
             },
             Choice::OnBright(color) => match color {
                 ChoiceColor::Black => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().on_bright_black()
                 ),
                 ChoiceColor::Red => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().on_bright_red()
                 ),
                 ChoiceColor::Green => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().on_bright_green()
                 ),
                 ChoiceColor::Yellow => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().on_bright_yellow()
                 ),
                 ChoiceColor::Blue => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().on_bright_blue()
                 ),
                 ChoiceColor::Magenta => {
                     print!(
                         "{}: [{}]: ",
-                        prompt.to_string(),
+                        prompt,
                         list.to_string().on_bright_magenta()
                     )
                 }
                 ChoiceColor::Cyan => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().on_bright_cyan()
                 ),
                 ChoiceColor::White => print!(
                     "{}: [{}]: ",
-                    prompt.to_string(),
+                    prompt,
                     list.to_string().on_bright_white()
                 ),
             },
