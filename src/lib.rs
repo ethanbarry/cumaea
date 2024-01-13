@@ -143,7 +143,12 @@ pub fn prompt_tf_default(prompt: &str, colored: Option<Choice>, default: bool) -
 /// # Panics
 ///
 /// Panics on failure of `stdin().read_line()` or `stdout().flush()`.
-fn prompt_selection(prompt: &str, list: &str, colored: Option<Choice>, default: &str) -> String {
+pub fn prompt_selection(
+    prompt: &str,
+    list: &str,
+    colored: Option<Choice>,
+    default: &str,
+) -> String {
     let mut input = String::new();
     match colored {
         Some(ref color_choice) => match color_choice {
