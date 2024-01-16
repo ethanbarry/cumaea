@@ -264,7 +264,8 @@ pub fn prompt_tf_default(prompt: &str, colored: Option<Choice>, default: bool) -
 ///     "(a)pples, (b)ananas, (c)arrots, (D)oughnuts",
 ///     Some(Choice::Normal(ChoiceColor::Cyan)),
 ///     "D",
-/// );```
+/// );
+/// ```
 ///
 /// Notice how the default option in the prompt is capitalized. The caller has
 /// partial responsibility for formatting the prompt; the crate prints the

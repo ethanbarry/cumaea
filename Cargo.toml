@@ -4,6 +4,7 @@ version = "0.1.1"
 edition = "2021"
 license = "GPL-3.0-or-later"
 description = "A crate to handle prompts for user input."
+repository = "https://github.com/ethanbarry/cumaea"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
